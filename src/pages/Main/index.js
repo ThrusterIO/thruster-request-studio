@@ -1,8 +1,11 @@
 import * as React from "react";
+import NavBar from "../../components/Navbar";
+import Editor from "../../components/Editor";
 
 const MainPage = props => (
   <div>
-    <h1>Hello World!</h1>
+    <NavBar/>
+    <Editor/>
   </div>
 );
 
